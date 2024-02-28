@@ -1,0 +1,206 @@
+* {
+    background: #28283f;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 10 10 10 10px;
+   
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.logoalura {
+    position: absolute;
+    width: 150px;
+    height: 58px;
+    left: 50px;
+    top: 30px;
+}
+
+.text-area {
+    position: absolute;
+    width: 680px;
+    height: 400px;
+    left: 240px;
+    top: 60px;
+    font-size:32px;
+    border: none;
+    background: none;
+    font-style: normal;
+    color: white;
+    resize: none;
+}
+
+::placeholder { color: white}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    position: absolute;
+    width: 380px;
+    height: 560px;
+    left: 1000px;
+    top: 40px;
+    background: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 30px;
+    font-size: 26px;
+    text-align: justify;
+    resize: none;
+}
+    
+.mensagem:focus {
+    outline: none;
+}
+
+
+.botoes {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 540px;
+    border: none;
+}
+
+.btn-criptografar {
+    background: white;
+    border: 1px solid #28283f;
+    border-radius: 24px;
+    color: #28283f;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 320px;
+    transition: 1.5s all;
+
+}
+
+.btn-criptografar:hover {
+    transform: scale(1.1);
+}
+
+.btn-descriptografar {
+    background: white;
+    border: 1px solid #28283f;
+    border-radius: 24px;
+    color: #28283f;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 18px;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 320px;
+    transition: 1.5s all;
+}
+
+.btn-descriptografar:hover {
+    transform: scale(1.1);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #909192;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 488px;
+    height: 18px;
+    left: 240px;
+    top: 510px;
+}
+
+.exclamacao {
+    width: 16px;
+    height: 16px;
+    top: 852px;
+    left: 240px;
+}
+
+.btn-copiar {
+    background: #28283f; 
+    border: 1px solid #28283f;
+    border-radius: 24px;
+    color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 18px;
+    position: absolute;
+    cursor: pointer;
+    width: 360px;
+    height: 67px;
+    left: 1020px;
+    top: 580px;
+    bottom: 80px;
+    left: 1050px;
+    transition: 1.5s all;
+}
+
+.btn-copiar:hover{
+    background: #74629e;
+    transform: scale(1.1);
+    
+}
+
+.boneco{
+    background-color: white;
+    position: absolute;
+    width: 17%;
+    left: 1070px;
+    top: 100px;
+}
+
+.alerta{
+    background-color: white;
+    position: absolute;
+    width: 17%;
+    left: 1070px;
+    top: 400px;
+}
+
+ 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #28283f;
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+footer a img {
+    width: 24px;
+    height: 24px;
+}
